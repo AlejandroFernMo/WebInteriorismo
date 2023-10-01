@@ -16,19 +16,31 @@
 
 }
 
- h1{
+h1{
 
     font-family: 'Caveat', cursive;
 
 }
 
- h2{
+h2{
 
     font-family: 'Caveat', cursive;
 
 }
 
+#portada h1 {
 
+font-size: 50px;
+
+
+
+}
+
+#portada h2 {
+
+    font-size: 30px;
+    
+}
 
 
 body {
@@ -38,7 +50,7 @@ body {
 
 a {
     
-    color: #1500d5;
+    color: grey;
     transition: color 0.3s;
 }
 
@@ -68,32 +80,33 @@ body.fade-out {
 
 
 
-    #cabecera {
+.cabecera {
         
         background-color: black;
         margin: 0 auto;
         padding-top: 15px;
         padding-bottom: 15px;
-        
-    }
+ }
     
 
 
 
 
-#cabecera h1 {
+.cabecera h1 {
    
     color: aliceblue;
+    font-size: 50px;
     
 }
 
-#cabecera h2 {
+.cabecera h2 {
    
     color: aliceblue;
+    font-size: 30px;
 }
 
 
-#menu {
+.menu {
 
     margin-top: 0;
     position: fixed;
@@ -120,7 +133,7 @@ body {
 }
 
 
-ul li {
+#lista ul li {
     padding: 1%;
     
     border-top: solid black 1px;
@@ -134,13 +147,13 @@ ul li {
 }
 
 
-ul a {
+#lista ul a {
 
     text-decoration: none;
     list-style: none;
 }
 
-ul {
+#lista ul {
 
     margin: 0;
     padding: 0;
@@ -150,4 +163,94 @@ ul {
 #lista {
 
     margin-top: 1%;
+}
+
+
+
+
+#lista li:hover {
+
+    color: white ;
+
+    font-size: 20px ;
+    
+    background-image: url(fondo.jpg) ;
+
+
+}
+
+
+
+#galeriaimg {
+
+    margin-top: 10px;
+    display: flex;
+	
+	
+
+	flex-direction: row;
+	justify-content: center;
+	
+	flex-wrap: wrap;
+
+    gap: 5px;
+    
+
+}
+
+
+
+
+
+.gallery img {
+
+    max-height: 300px;
+}
+
+
+.retroceso a {
+
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: black;
+    
+    
+
+}
+
+
+
+
+#servicios li {
+
+        list-style: none;
+        margin-top: 5px;
+        font-family: 'Satisfy', cursive;
+        font-size: 35px;
+}
+
+#descrpcion p{
+
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+
+}
+
+#sobrenos {
+
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+
+}
+
+form {
+    font-family: 'Satisfy', cursive;
+}
+
+
+input {
+
+    font-family: 'Satisfy', cursive;
+
 }
